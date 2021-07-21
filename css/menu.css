@@ -2,17 +2,25 @@
 	display: none;
 }
 
-header label{
+/*header label{
 	font-size: 30px;
 	margin: 6px 0;
 	cursor: pointer;
-    width: 750px;
+    width: 60px;
+    float: right;
+}*/
+
+.menu{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 30px;
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float:inherit;
+    background: rgba(51, 51, 51, 0.9);
 }
 
+/*
 .menu{
 	position: absolute;
 	top: 0;
@@ -20,9 +28,10 @@ header label{
 	width: 185px;
 	background: rgba(51, 51, 51, 0.9);
 	transition: all 0.5s;
-	transform: translateX(-100%);*/
+	transform: translateX(-100%);
 	height: auto;
 }
+*/
 
 .menu a{
     display: block;

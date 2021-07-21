@@ -10,16 +10,14 @@
 
 header div.contenedor1{
     display: flex;
-    width: 60vw;
-    height: 20vh;
     margin: auto;
-    margin-top: 10px;
 }
 
 .contenedor1 img{
-    width: 100%;
-    height: 100%;
-
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    margin: auto;
 }
 
 body{
@@ -27,7 +25,7 @@ body{
 }
 
 .contenedor{
-	width: 450px;
+	width: 500px;
 	margin: auto;	
 }
 
@@ -48,40 +46,41 @@ footer .contenedor{
 
 @media (min-width: 700px){
     .contenedor, .contenedor1, #info{
-		width: 600px;
+		width: 650px;
     }
-
+    
     header div.contenedor1{
         display: flex;
-        width: 40vw;
-        height: 25vh;
         margin: auto;
         margin-top: 10px;
+        background: red;
     }
     .contenedor1 img{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 30%;
+        justify-content: center;
+        margin: auto;
     }
 }
 
 @media (min-width: 900px){
     .contenedor, .contenedor1, #info{
-		width: 800px;
+		width: 850px;
+/*        background: yellow;*/
     }
 
-    
     header div.contenedor1{
         display: flex;
-        width: 40vw;
-        height: 30vh;
         margin: auto;
         margin-top: 10px;
+        background: yellow
     }
     .contenedor1 img{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 50%;
+        justify-content: center;
+        margin: auto;
     }
-}
 
 
 @media (min-width: 1200px){
@@ -91,14 +90,15 @@ footer .contenedor{
 
     header div.contenedor1{
         display: flex;
-        width: 40vw;
-        height: 32vh;
         margin: auto;
         margin-top: 10px;
+        background: red
     }
     .contenedor1 img{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 30%;
+        justify-content: center;
+        margin: auto;
     }
 }
 
@@ -109,33 +109,33 @@ footer .contenedor{
 
     header div.contenedor1{
         display: flex;
-        width: 40vw;
-        height: 40vh;
         margin: auto;
         margin-top: 10px;
-        padding: 20px;
+        background: red
     }
     .contenedor1 img{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 30%;
+        justify-content: center;
+        margin: auto;
     }
 }
 
 @media (min-width: 1800px){
     .contenedor, .contenedor1, #info{
-		width: 1800px;
+		width: 1700px;
     }
 
     header div.contenedor1{
         display: flex;
-        width: 40vw;
-        height: 40vh;
         margin: auto;
         margin-top: 10px;
-        padding: 20px;
+        background: blue;
     }
     .contenedor1 img{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 30%;
+        justify-content: center;
+        margin: auto;
     }
 }
