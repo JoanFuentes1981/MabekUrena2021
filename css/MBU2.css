@@ -5,7 +5,7 @@
 @import url(info.css);
 @import url(abotume.css);
 @import url(Servicios.css);
-@import url(/css/SliderJava2.css);
+@import url(SliderJava2.css);
 @import url(contacto.css);
 
 header div.contenedor1{
@@ -53,7 +53,7 @@ footer .contenedor{
         display: flex;
         margin: auto;
         margin-top: 10px;
-        background: red;
+        background: orange;
     }
     .contenedor1 img{
         width: 30%;
@@ -73,7 +73,7 @@ footer .contenedor{
         display: flex;
         margin: auto;
         margin-top: 10px;
-        background: yellow
+        background: green;
     }
     .contenedor1 img{
         width: 30%;
@@ -92,7 +92,7 @@ footer .contenedor{
         display: flex;
         margin: auto;
         margin-top: 10px;
-        background: red
+        background: yellow;
     }
     .contenedor1 img{
         width: 30%;
@@ -111,7 +111,7 @@ footer .contenedor{
         display: flex;
         margin: auto;
         margin-top: 10px;
-        background: red
+        background: red;
     }
     .contenedor1 img{
         width: 30%;

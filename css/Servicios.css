@@ -9,11 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .servicios .column{
     width: 300px;
     height: 300px;
-    border: 2px solid black;        
+    border: 2px solid black;
 }
 
 .servicios .column--50 img{
@@ -31,6 +32,7 @@
     font-style:oblique;
     font-size: 80px;
 }
+
 
 .btn{
     display: block;
@@ -109,7 +111,6 @@
     } 
 }
 
-
 @media screen and (min-width:1500px){
 
     .servicios .contenedor{
@@ -123,6 +124,7 @@
         text-align: center;
         text-decoration: none;
         font-size: 25px;
+        margin-top: 20%;
     }
 
     .servicios .column--50 p{ 
